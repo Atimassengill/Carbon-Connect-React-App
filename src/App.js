@@ -9,6 +9,7 @@ import Nasa from './Com/pages/Nasa';
 import CCIA from './Com/pages/CCIA';
 import Climate from './Com/pages/Climate';
 import Gov from './Com/pages/Gov';
+import Calculator from './Com/pages/Calculator';
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
           {Climate} />
           <Route path='/Gov' exact component=
           {Gov} />
+          <Route path='/Calculator' exact component= 
+          {Calculator} />
           
 
         </Switch>
